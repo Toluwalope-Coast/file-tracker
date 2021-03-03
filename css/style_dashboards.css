@@ -1,0 +1,280 @@
+/***********  THE DASHBOARD STYLES   *********************/
+
+ body{
+	background-color: #e0e0ff;
+}
+.container{
+	background-color: rgba(0, 0, 0, 0);
+	margin: 0px;
+	padding: 0px;
+}
+.row{
+	margin: 0px;
+}
+.navbar{
+	
+	z-index: 250;
+	position: fixed;
+	background-color: #777777;
+}
+
+
+/***********  THE TOP NAV BAR STYLES   *********************/
+.navbar-brand{
+	font-weight: bold;
+}
+img{
+	border-radius: 80%;
+	padding-right: 0px;
+	border: 1px solid #ff8000;
+}
+#top_list .nav-item:nth-child(2){
+	text-align: left;
+}
+.navbar-text a{
+	color: rgba(255,255,255,0.5)
+}
+ .navbar-text i{
+ 	margin-right: 6%;
+ 	color: #fdfdfd;
+ }
+.flex-wrap{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+/***********  THE TOP NAV BAR STYLES CLOSES   *********************/
+
+
+/***********  THE SIDE NAV BAR STYLES   *********************/
+.sidebar {
+	height: 100%;
+    position: fixed;
+    top: 9%;
+    background-color: #009494;
+    color: rgba(255,255,255,.5);
+    padding: 15px 0px 0px 0px;
+    z-index: 100;
+}
+#sidebar{
+	padding: 15px 0px 15px 0px;
+	overflow-x: visible;
+	margin-top: 20px;
+	position: fixed;
+	z-index: 100;
+}
+
+
+#sidebar .nav-item{
+	padding: 3px 3px 3px 8px;
+	line-height: 2;
+	margin: 0% 0% 5% 0%;
+}
+
+#sidebar .nav-item:first-child{
+	margin: 0% 0% 5% 0%;
+	padding: 10px;
+	line-height: 1;
+
+}
+#sidebar .nav-link{
+	padding: 10px 0px 8px 10px;
+	display: inline;
+    color: #ffffff;
+}
+#sidebar .nav-item:hover, .active{
+	border-left: 6px solid #0275d8;
+	border-right: 5px solid #ff8000;
+	color: #ffffff;
+	background-color: rgba(134, 205, 244, 0.5);
+	padding: 6px;
+}
+#sidebar .nav-item a:hover{
+	color: #ffffff;
+}
+
+#sidebar .nav-item a{
+	color: #ffffff;
+}
+
+.fa-caret-left{
+	color: #ff8000;
+	float: right;
+}
+.fa-sign-out-alt, .fa-clock, .fa-home, .fa-comment-alt, .fa-file, .fa-list, .fa-user{
+	color: #ffffff;
+}
+.navbar span, .navbar-text{
+	color: #ffffff;
+}
+
+/***********  THE SIDE NAV BAR DROPDOWN STYLES   *********************/
+.dropdown-list{
+	display: none;
+	list-style-type: none;
+	padding: 0px;
+}
+.dropdown-link a{
+	text-decoration: none;
+	color: #d0d0ff;
+	font-size: 0.6em;
+}
+.dropdown-list li a:hover, .dropdown-link a:hover{
+	color: #fdfdfd;
+	background-color: #ff8000;
+	font-size: 0.8em;
+	font-weight: bolder;
+	padding: 0px 5px;
+}
+#profile:hover .dropdown-list, #report:hover .dropdown-list, #file:hover .dropdown-list{
+	display: block;
+	
+}
+
+
+/***********  THE SIDE NAV BAR STYLES  CLOSES *********************/
+
+
+/***********  THE MAIN PAGE STYLES *********************/
+
+
+#wrapper{
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 0% 0% 0% 0.5%;
+	height: 100vh;
+	position: fixed;
+	display: none;
+	z-index: 3;
+}
+#main{
+	background-color: rgba(0, 0, 0, 0);
+	padding: 0% 0% 0% 0%;
+	height: 100%;
+	margin-top: 6.2%;
+	position: relative;
+}
+#content{
+	background-color: #e0e0ff;
+	padding: 0% 0% 0% 0.5%;
+	height: 100%;
+	z-index: 1;
+	margin: 5% 3% 2% 2%;
+}
+
+.jumbotron{
+	background-color: #d0d0ff;
+	padding: 20px 16px;
+	margin: 16px;
+	overflow: auto;
+
+}
+
+.jumbotron h2{
+	color: #337ab7;
+}
+.links, .keys{
+	margin-left: 16px;
+}
+.contents{
+	margin-left: 2%;
+	height: 60vh;
+}
+
+.page{
+	height: 90vh;
+}
+.page h2{
+	max-height: 10vh;
+}
+
+
+/***********  THE MAIN PAGE STYLES CLOSES *********************/
+
+
+
+
+/********************     LOWER NAV STYLES       **********************/
+
+
+.edit-link, .edit-link:hover{
+	color: #fdfdfd;
+}
+
+
+#nav3{
+	z-index: 99;
+	position: fixed;
+	padding-bottom: 0px;
+	background-color: #777777;
+}
+#main h2{
+	margin-bottom: 4px;
+}
+.bold {
+	color: #fdfdfd;
+	background-color: #555555;
+}
+.wrap{
+	overflow-wrap: break-word;
+}
+.contents h5{
+	font-weight: bold;
+	margin-top: 2%;
+}
+
+
+
+/********************     LOWER NAV STYLES CLOSES    **********************/
+
+
+/********************     FORM PAGE STYLES       **********************/
+
+
+.edit-form{
+	position: absolute;
+	margin: 10% 5%;  
+}
+
+.edit-active{
+	background-color: #eeeeee;
+	border-radius: 15px 15px 2px 2px;
+}
+.edit-active-link{
+	color: #333333;
+}
+
+.form-submit{
+	border-radius: 20px;
+}
+
+/********************     FORM PAGE STYLES  CLOSES     **********************/
+
+
+tbody tr:nth-child(odd){
+	background-color: #ff8000;
+	color: #fdfdfd;
+}
+
+tbody tr:nth-child(even){
+	background-color: #ff962e;
+	color: #fdfdfd;
+}
+table{
+	table-layout: fixed;
+}
+table tr td{
+	width: 40rem;
+	padding: 0.75rem 0.20rem 0.75rem 0.15rem;
+}
+
+.collspan{
+	text-align: center;
+}
+.cash{
+	table-layout: fixed;
+
+}
+.cash tr td{
+	width: 159rem;
+}

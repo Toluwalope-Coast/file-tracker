@@ -1,0 +1,88 @@
+
+/***********  THE LOGIN STYLES   *********************/
+
+#loginPage{
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+	padding: 0px;
+
+}
+
+#loginContainer{
+	height: 100vh;
+	max-width: 100vw;
+	margin: 0px;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.6)
+
+}
+#loginContainer header {
+	text-align: center;
+	color: #ffffff;
+	position: absolute;
+	margin: 10vh 4vh 1vh 25vh;
+	font-size: 1.5em;
+	font-weight: bold;
+	max-width: 70%;
+}
+
+#loginContainer header img {
+	border-radius: 100px;
+	margin-left: 1vw;
+}
+
+.bottom {
+	position: fixed;
+	top: 97vh;
+	left: 89vw;
+	color: #ffffff;
+}
+#login {
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	text-align: left;
+	top: 25vh;
+	height: 57vh;
+	width: 30vw;
+	padding: 2vh 5vh 2vh 5vh;
+	border-radius: 10px;
+	box-shadow: 5px 0px rgba(21, 209, 209, 0.2), -5px 0px rgba(21, 209, 209, 0.19);
+
+}
+#login form{
+	padding-top: 5%;
+}
+
+#login form .form-group{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#login_submit{
+	margin-top: 9%;
+	width: 25%;
+	margin-left: 35%;
+	background-color: #15d1d1;
+	color: #fdfdfd;
+	font-size: 0.9em;
+	border-color: rgba(0, 0, 0, 0);
+	border-radius: 25px;
+	box-shadow: 3px 3px rgba(5, 193, 203, 1)
+}
+
+#login_submit:hover{
+	
+	box-shadow: -2px -2px rgba(10, 198, 205, 0.5)
+}
+label{
+	color: rgb(21, 209, 209);
+	font-size: 0.9em;
+}
+
+
+
+
+/***********  THE LOGIN STYLES ENDS   *********************/
